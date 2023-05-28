@@ -1,0 +1,78 @@
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: right;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background-color:black;
+    color:whitesmoke;
+}
+
+.shadow {
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.356);
+}
+
+.form-inline{
+    text-align: right;
+    float: right;
+}
+/*section profile*/
+.card {
+    padding: 5px;
+    border-radius: 1rem;
+    margin-top:4rem;
+    margin-bottom: 3rem;
+}
+.d-flex {
+    display: flex;
+}
+.mt-5 {
+    margin-top: 1rem;
+}
+
+.ml-50px {
+    margin-left: 10px;
+}
+
+.profile {
+    display: grid;
+    align-items: center;
+}
+
+
+.form{
+    box-sizing : border-box;
+	width: 100%;
+	padding: 20px;
+	font-size: 12pt;
+	margin-bottom: 20px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.submit{
+	font-size: 20pt;
+	width: 100%;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
